@@ -1,5 +1,35 @@
 package _03_Functions
 
+val foo = { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 fun highOrderFunction(foo: () -> Unit): () -> Unit {
     return { foo() }
 }
