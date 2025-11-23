@@ -1,0 +1,15 @@
+package _12_Properties
+
+class House {
+    var sofa: String = ""
+}
+
+fun main() {
+    val house = House()
+    house.sofa = "Simple sleeper sofa: $89.00"
+    println(house.sofa)
+    house.sofa = "New leather sofa: $3,099.00"
+    println(house.sofa)
+    // Cannot reassign the val to a new House:
+    // house = House()
+}
